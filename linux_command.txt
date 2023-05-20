@@ -1,0 +1,10 @@
+mkdir test_2
+
+touch ROBOT_CLASS.txt
+
+git init
+git add README.md
+git commit -m "Remote Repo"
+git branch -M robot-dev
+git remote add origin https://github.com/robot-class/final.git
+git push -u origin main
